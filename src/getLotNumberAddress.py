@@ -33,5 +33,5 @@ def get_lot_number_address(roadNameAddress: str) -> str:
         return f"에러 발생: {e}"
 
 # 함수 사용 예시
-query = "경기도 오산시 수청로 204-20"
-print(get_result_address(query))
+query = "서울특별시 영등포구 의사당대로 1"
+print(get_lot_number_address(query))
